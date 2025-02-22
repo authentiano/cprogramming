@@ -1,0 +1,38 @@
+If staments help the program to make decision based on the conditions provided
+it executes one block if the condition is true and another if the condition is false.
+
+# the Nested if
+The nested if helps to chech multiple conditions in hierarchical manner, the inner if is only evaluated when the outer if is true
+
+if(condition1){
+     // Execute code when the condition1 is true.
+    if(condition2){
+        //execute code when condition2 is true and one is true.
+    }else{
+        //code when condition 2 is false and condition1 is true
+    }
+}else{
+    code to execute when condition1 is false
+}
+
+# Switch statements.
+These are preferably used when you are comparing a variable against multiple values
+These are preferably better because the reduce on the complexity and amibiquity that can 
+
+# Difference between if-else, nested if and the switch statements.
+
+if-else
+1. used to execute singular conditions. 
+2. simple and straightforward.
+3. evaluated condtions and logical comparisons. 
+
+Nested if
+1. adds addition layer for decision making
+2. executes in hierarchical manner.
+3. can become complex when the if become so many
+
+switch
+1. compares one expression against multiple constant values.
+2. Designed for calculating and evaluating discrete cases.
+
+

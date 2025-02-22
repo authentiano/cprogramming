@@ -1,0 +1,16 @@
+# arrays are used to store multiple values in a single
+variable, instead of declaring separate variable for each values
+
+to create an array, define the data type like the int, and specify the name
+we they are comma separated values, or collections. 
+They are inside curly braces and make sure the values are of the same data type
+
+These are are a collection of elements with the same datatype; grouped 
+eg 
+    int myNumbers[] = { 25, 50, 56, 59};
+
+
+2. Accessing the Array elements.
+
+    We use the index number to access the elements in the list
+    and the index start from 0 [0], this is the element 1

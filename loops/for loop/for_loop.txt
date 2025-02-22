@@ -1,0 +1,26 @@
+SYNTAX
+
+for(initialization; condition; update){
+    //code to be executed. 
+}
+
+
+example
+
+#include <stdio.h>
+int main(){
+    int i;
+    for(i = 0; i < 9; i+=1){
+        printf("%d \n", i);
+    }
+    return 0;
+}
+
+SEMANTICS
+
+The initialization sets the value of the variable to be iterated
+The program check if the condition is true;
+And if the condition is true, the code block is executed.
+if it is false, the code terminates.
+After each iteration, the update expression is executed, which either increments or decrements the value of the variable
+
