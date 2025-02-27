@@ -19,4 +19,4 @@ void my_calculator(){
 int main(){
     my_calculator();
     return 0;
-}
+} 
